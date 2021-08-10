@@ -12,6 +12,7 @@ import { JobPositionsModule } from './job-positions/job-positions.module';
 import { DepartmentsModule } from './departments/departments.module';
 import { EmployeesModule } from './employees/employees.module';
 import { DeductionsModule } from './deductions/deductions.module';
+import { AuthenticationModule } from './authentication/authentication.module';
 
 @Module({
   imports: [
@@ -21,6 +22,7 @@ import { DeductionsModule } from './deductions/deductions.module';
     DepartmentsModule,
     EmployeesModule,
     DeductionsModule,
+    AuthenticationModule,
   ],
   controllers: [AppController],
   providers: [AppService],
